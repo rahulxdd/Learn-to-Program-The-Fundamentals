@@ -1,4 +1,4 @@
-#Q. What will be printed when this code is executed?
+#1 What will be printed when this code is executed?
 
 num = 6
 while num > 0:
@@ -25,7 +25,7 @@ c
 c
 d
 
-#Select the expression that correctly completes the missing line in function last_vowel.
+#2 Select the expression that correctly completes the missing line in function last_vowel.
 
 def last_vowel(s):
     """(str) -> str
@@ -43,7 +43,7 @@ def last_vowel(s):
     return None
 
 
-#Print the first vowel found in a string using for loop
+#3 Print the first vowel found in a string using for loop
 
 def first_vowel(s):
     """(str) -> str
@@ -57,3 +57,18 @@ def first_vowel(s):
         if vowel in 'aeiouAEIOU':
             return vowel
             
+#4 Print the first vowel found in a string using while loop
+
+def first_vowel(s):
+    """(str) -> str
+    Return the first vowel in s if one exists; otherwise, return None.
+    >>> first_vowel("cauliflower")
+    "e"
+    >>> first_vowel("pfft")
+    None
+    """
+    i = 0
+    while i < len(s):
+        if s[i] in 'aeiouAEIOU':
+            return s[i] #if I use print instead of return then it will print all the vowels that are found in word.
+        i = i + 1    
