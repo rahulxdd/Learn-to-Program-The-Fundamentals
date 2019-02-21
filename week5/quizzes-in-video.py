@@ -41,3 +41,19 @@ def last_vowel(s):
              return s[i]
          i = i - 1
     return None
+
+
+#Print the first vowel found in a string using for loop
+
+def first_vowel(s):
+    """(str) -> str
+    Return the first vowel in s if one exists; otherwise, return None.
+    >>> first_vowel("cauliflower")
+    "e"
+    >>> first_vowel("pfft")
+    None
+    """
+    for vowel in s:
+        if vowel in 'aeiouAEIOU':
+            return vowel
+            
