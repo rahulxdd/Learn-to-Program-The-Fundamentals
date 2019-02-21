@@ -1,4 +1,4 @@
-Q. What will be printed when this code is executed?
+#Q. What will be printed when this code is executed?
 
 num = 6
 while num > 0:
