@@ -72,3 +72,21 @@ def first_vowel(s):
         if s[i] in 'aeiouAEIOU':
             return s[i] #if I use print instead of return then it will print all the vowels that are found in word.
         i = i + 1    
+
+	
+# Second video internal ques 
+# If grades refers to [70, 60, 75, 60], select the statement(s) that will remove one of the 60 values from the list. Here is documentation for pop and remove:
+
+list.pop()
+     remove and return the item at the end of the list
+     (optional index to remove from anywhere)
+
+list.remove(object)
+    remove the first occurrence of the object; error if not there
+
+#Options:
+grade.pop() #correct
+grades.pop(60) #incorrect because it will remove the item at index 60
+grades.pop(1) #correct
+grades.remove(60) #correct
+
