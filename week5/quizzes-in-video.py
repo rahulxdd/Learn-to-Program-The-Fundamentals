@@ -11,7 +11,7 @@ while num > 0:
 0
 
 
-#Q. Print the non vowel characters in a string
+#Q. Print the non vowel characters in a string using while loop
 
 s = 'nccdoctors'
 i = 0
@@ -24,6 +24,23 @@ n
 c
 c
 d
+
+#Q. Printing the non vowel characters in a string using for loop
+s = 'nccdoctors'
+i = 0
+for letter in s:
+	if letter not in 'aeiouAEIOU':
+		print(letter)
+#OUTPUT:
+n
+c
+c
+d
+c
+t
+r
+s
+
 
 #2 Select the expression that correctly completes the missing line in function last_vowel.
 
